@@ -1,0 +1,85 @@
+def correr() :
+    repeat(move,1)
+repeat(correr,5)
+print "Hagamos Matematicas"
+print "Realiza una Suma"
+print "Cuanto es 5 + 6"
+#Desafia tus conocimientos
+resultado=11
+argumento=5+6
+a = input_int()
+def funcion(argumento) :
+    argumento=resultado
+    return resultado
+
+VariableDeNumero = 11
+
+if (VariableDeNumero == a):
+    print("Correcto es once")
+else:
+    print("Incorrecto es once")
+turn_left()
+move()
+def giro() :
+    repeat(turn_left,3)
+repeat(giro,1)
+repeat(correr,1)
+repeat(giro,1)
+repeat(correr,1)
+turn_left()
+move()
+turn_left()
+repeat(correr,2)
+turn_left()
+repeat(correr,2)
+repeat(giro,1)
+print "Realiza una Resta"
+print "Cuanto es 10 - 5"
+#Desafia tus conocimientos
+resultado=5
+argumento=10-5
+a = input_int()
+def funcion(argumento) :
+    argumento=resultado
+    return resultado
+
+VariableDeNumero = 5
+
+if (VariableDeNumero == a):
+    print("Correcto es cinco")
+else:
+    print("Incorrecto es cinco")
+repeat(correr,1)
+repeat(giro,1)
+repeat(correr,2)
+turn_left()
+repeat(correr,4)
+repeat(giro,1)
+repeat(correr,2)
+turn_left()
+repeat(correr,2)
+print "Realiza una Multiplicacion"
+print "Cuanto es 3 * 5"
+#Desafia tus conocimientos
+resultado=15
+argumento=3*5
+a = input_int()
+def funcion(argumento) :
+    argumento=resultado
+    return resultado
+
+VariableDeNumero = 15
+
+if (VariableDeNumero == a):
+    print("Correcto es Quince")
+else:
+    print("Incorrecto es Quince")
+turn_left()
+def avanzarSi():
+    if front_is_clear():
+        move()
+    else:
+        print("META WEE!")
+        turn_off()
+repeat(avanzarSi,12)
+turn_off()
